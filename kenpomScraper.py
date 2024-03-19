@@ -48,7 +48,7 @@ for tr in driver.find_elements(By.CSS_SELECTOR, '#ratings-table > tbody > tr'):
     team.nonConOppEffRk = tableData[20].text
 
     teamData = teamDataTable[team.teamName]
-    if teamData.find_one(team.__dict__): continue
+    if teamData.find_one({'teamName':team.teamName}): teamData.find_one_and_replace({'teamName':team.teamName}, team.__dict__)
     else: teamData.insert_one(team.__dict__)
     teams.append(team)
     del team
