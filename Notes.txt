@@ -1,0 +1,7 @@
+Notes
+
+Get teams shooting stats 
+Get schedule ex: A/H Marquette W/L [+/- pts] then some basic stats shooting, reb, opp etc
+
+then can search a teams losses and see avg kp stats and compare to tourney matchups to see if they lose or win to certain matchups easier
+can see if wins or losses may be flooky ex in a loss shooting 15% from 3 when avg is 35%
